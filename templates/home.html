@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block title %}Home - Football Site{% endblock %}
+
+{% block content %}
+<h1>Welcome to the Football Fan Site!</h1>
+<p>Here you can find the latest news and updates about football.</p>
+<img src="{{ url_for('static', filename='football.jpg') }}" alt="Football">
+{% endblock %}
